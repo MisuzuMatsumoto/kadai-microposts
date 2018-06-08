@@ -23,4 +23,5 @@
     </li>
 @endforeach
 </ul>
-{!! $microposts->render() !!}
+<!--以下ページネーション設定-->
+{!! $microposts->render() !!} 
